@@ -8,6 +8,11 @@
     background-color: #f4f4f4;
   }
 
+  .main-body {
+    max-width: 1440px;
+    padding: 3rem;
+  }
+
   /* Header styling */
   header {
     background: #333;
@@ -30,6 +35,8 @@
     padding: 1rem;
     margin: 1rem;
     background: #fff;
+    border-radius: 8px;
+    box-shadow: 1px 1px 3px 1px lightgray;
   }
 
   /* Section header styling */
