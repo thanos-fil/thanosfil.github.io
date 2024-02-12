@@ -127,12 +127,14 @@
     border-top-right-radius: 0.5rem;
   }
 
+  .main-body .education .education-item,
   .main-body .experience .experience-item {
     margin-bottom: 2rem;
     width: 100%;
     padding-left: 0.5rem;
   }
 
+  .main-body .education .education-item .institution,
   .main-body .experience .experience-item .company {
     color: #42a8c0;
     font-weight: 600;
@@ -140,17 +142,20 @@
     margin-top: 1rem;
   }
 
+  .main-body .education .education-item .item-title-header,
   .main-body .experience .experience-item .item-title-header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
 
+  .main-body .education .education-item .item-title-header h3,
   .main-body .experience .experience-item .item-title-header h3 {
     margin-bottom: 0;
     margin-top: 0;
   }
 
+  .main-body .education .education-item .item-title-header .time,
   .main-body .experience .experience-item .item-title-header .time {
     color: #97aac3;
     display: flex;
