@@ -80,9 +80,14 @@
     text-decoration: none;
   }
   .sidebar .sidebar-lower .contact-list .fas,
+  .sidebar .sidebar-lower .contact-list .fa-solid.fa-globe,
   .sidebar .sidebar-lower .contact-list .fab {
     font-size: 1rem;
     margin-right: 0.3rem;
+  }
+
+  .cv-site {
+    display: none;
   }
 
   .sidebar .sidebar-lower .languages-list {
@@ -287,5 +292,11 @@
     .sidebar-upper,
     .sidebar-lower {
       padding-top: 3rem;
+    }
+    .cv-site {
+      display: flex;
+    }
+    .cv-pdf {
+      display: none;
     }
   }
