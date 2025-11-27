@@ -28,6 +28,11 @@
     max-width: 1000px;
   }
 
+  .body-wrapper strong {
+    font-weight: 600;
+    color: #31373f;
+  }
+
   .sidebar {
     width: 20%;
     min-width: 280px;
@@ -88,6 +93,20 @@
 
   .cv-site {
     display: none;
+  }
+
+  .sidebar .sidebar-lower .skills-summary,
+  .sidebar .sidebar-lower .tools-practices {
+    margin-top: 16px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  sidebar .sidebar-lower .skills-summary p {
+    color: rgba(255,255,255,.9);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
   }
 
   .sidebar .sidebar-lower .languages-list {
@@ -275,6 +294,9 @@
     .page-break {
       page-break-after: always;
     }
+    .after-break {
+      margin-top: 5rem;
+    }
     .body-wrapper {
       margin: 0;
       box-shadow: none;
@@ -282,11 +304,29 @@
     .item-details.after-break {
       margin-top: 4rem;
     }
-    .experience {
-      margin-top: 3rem;
-    }
     .profile {
-      margin-top: 2rem;
+      margin-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .skills-tools-container {
+      margin-top: 32px;
+      display: flex;
+      flex-flow: column nowrap;
+    }
+    .sidebar .sidebar-lower .skills-summary,
+    .sidebar .sidebar-lower .tools-practices {
+      margin: 0;
+      padding: 0;
+    }
+
+    .qualifications,
+    .experience,
+    .education,
+    .interests {
+      margin-top: 0;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
     }
 
     .sidebar-upper,
